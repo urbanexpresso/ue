@@ -62,10 +62,9 @@ p {
             transition: background-color 0.15s, color 0.15s;
             margin-top: 79px;
             text-align: left;
+            margin-right: 4px;
             padding-top: 2px;
             padding-right: 4px;
-              padding-left:3px;
-              margin-right: 3px;
           }
           
           .labelinfo:hover,
