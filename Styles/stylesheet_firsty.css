@@ -91,6 +91,6 @@ body {
     margin-top: 20px;
   }
   a {
-    color: rgba(107, 107, 107, 0.733); /* Link color */
+    color: rgba(240, 255, 255, 0.511); /* Link color */
     text-decoration: underline; /* Underline links */
   }
