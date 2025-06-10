@@ -1,0 +1,127 @@
+body {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+    margin: 0;
+    padding: 15px;
+    padding-top: 15px;
+    background-color: #000000;
+  }
+  h3{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  .subtitleH {
+    display: block;
+    font-family: Helvetica;
+    color: azure;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .subtitle {
+    display: block;
+    font-family: Helvetica;
+    color: azure;
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+  .listofgoods {
+    display: block;
+    width: 300px;
+  }
+  .arguments {
+    display: block;
+    font-family: Helvetica;
+    color: azure;
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+
+  .label {
+    display: inline-block;
+    background-color: black;
+    font-family: Helvetica;
+    border: 1px solid azure;
+    border-radius: 5px;
+    padding: 9px;
+    text-align: left;
+    color: azure;
+    cursor: pointer;
+    margin-top: 7px; /* Margin around buttons */
+    font-size: 18px; /* Increased font size for buttons */
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .label:hover {
+    background-color: azure;
+    color: black;
+  }
+  .return-botton-location {
+    text-align: right;
+  }
+  .café-button-div-ffs {
+    margin-top: 20px;
+  }
+  .café-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0; /* Margin around buttons */
+    padding: 2px; /* Increased padding for larger buttons */
+    font-size: 9px; /* Increased font size for buttons */
+    transition: background-color 0.15s, color 0.15s;
+    margin-right: 12px;
+  }
+
+  .café-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid black;
+  }
+  .label:hover a,
+  .café-button:hover a {
+    color: black !important;
+  }
+  .café-button:active {
+    background-color: rgb(0, 0, 0);
+    color: azure;
+  }
+
+  /* Style for the return button */
+  .return-button {
+    margin-top: 20px;
+  }
+  a {
+    color: azure; /* Link color */
+    text-decoration: underline; /* Underline links */
+  }
+    .labelinfo {
+    position: flex;      
+    font-family: Helvetica;
+    margin-left: auto;
+    vertical-align: top;
+            background-color: black;
+            color: azure;
+            border: 0.5px solid azure;
+            border-radius: 1px;
+            cursor: pointer;
+            font-size: 8px;
+            transition: background-color 0.15s, color 0.15s;
+            
+            padding: 2px;
+          }
+          .labelinfo:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+          }
+          
+          .labelinfo:active {
+            background-color: black;
+            color: azure;
+            border: 1px solid azure;
+          }

@@ -1,0 +1,160 @@
+body {
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+    margin: 0;
+    padding-bottom: 114px;
+    padding-top: 15px;
+    background-color: #000000;
+  }
+
+  .all_elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+  }
+
+  .Artpiece {
+    width: 300px;
+    border: 1px;
+    border-color: azure;
+    background-color: black;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+  }
+  .photo {
+    width: 100%;
+    object-fit: cover;
+  }
+  .participating_party {
+    font-size: 18px;
+    color: azure;
+    width: 100%;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .text {
+    font-size: 14px;
+    color: azure;
+    margin-bottom: 5px;
+    font-family: Helvetica;
+  }
+  ol {
+    background: black;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-top: -12px;
+    margin-left: 8px;
+  }
+  li::marker {
+    background-color: azure;
+    color: azure;
+  }
+  ol li {
+    background: black;
+    color: azure;
+    padding: 5px;
+    margin-bottom: 14px;
+    border: solid 1px azure;
+    border-radius: 7px;
+  }
+  a {
+    color: azure; /* Link color */
+    text-decoration: underline; /* Underline links */
+  }
+  .label {
+    display: inline-block;
+    background-color: black;
+    font-family: Helvetica;
+    border: 1px solid azure;
+    border-radius: 5px;
+    padding: 9px;
+    text-align: left;
+    color: azure;
+    cursor: pointer;
+    margin-top: 7px; /* Margin around buttons */
+    font-size: 18px; /* Increased font size for buttons */
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .label:hover {
+    background-color: azure;
+    color: black;
+  }
+  .return-botton-location {
+    margin-top: -5px;
+    text-align: right;
+    margin-right: 23px;
+  }
+  .café-button-div-ffs {
+    margin-top: 20px;
+  }
+  .café-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0; /* Margin around buttons */
+    padding: 2px; /* Increased padding for larger buttons */
+    font-size: 9px; /* Increased font size for buttons */
+    transition: background-color 0.15s, color 0.15s;
+    margin-right: 12px;
+  }
+
+  .café-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid black;
+  }
+  .label:hover a,
+  .café-button:hover a {
+    color: black !important;
+  }
+  .café-button:active {
+    background-color: rgb(0, 0, 0);
+    color: azure;
+  }
+
+  /* Style for the return button */
+  .return-button a {
+    margin-top: 20px;
+    color: rgba(240, 255, 255, 0.9);
+  }
+
+   .labelinfo {
+    position: flex;      
+    font-family: Helvetica;
+    margin-left: auto;
+    vertical-align: top;
+            background-color: black;
+            color: azure;
+            border: 0.5px solid azure;
+            border-radius: 1px;
+            cursor: pointer;
+            font-size: 8px;
+            transition: background-color 0.15s, color 0.15s;
+            
+            padding: 2px;
+          }
+          .labelinfo:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+          }
+          
+          .labelinfo:active {
+            background-color: black;
+            color: azure;
+            border: 1px solid azure;
+          }
+            h3{
+              font-size: 25px;
+              display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

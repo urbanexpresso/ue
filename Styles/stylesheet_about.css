@@ -1,0 +1,187 @@
+body {
+    font-family: Helvetica;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-left: 0px;
+margin: 0;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 15px;
+padding-bottom: 114px;
+background-color: #000000;}
+
+h2 {
+margin-bottom: 5px;
+margin-top: 23px;
+}
+  .all_elements {
+    display: block;
+    width: 300px;
+  }
+
+  .Artpiece {
+    width: 100%;
+    border: 1px;
+    border-color: azure;
+    background-color: black;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+  }
+  .photo {
+    width: 100%;
+    object-fit: cover;
+  }
+  .participating_party {
+    font-size: 18px;
+    color: azure;
+    width: 100%;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .text {
+    font-size: 14px;
+    color: azure;
+    margin-bottom: 5px;
+    font-family: Helvetica;
+  }
+
+  .person {
+    display: flex; align-items: center; /* Aligns items vertically */ 
+    gap: 1px;
+    align-items: stretch; 
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .portrait1{
+    font-size: 14px;
+    color: azure;
+    margin-bottom: 5px;
+    font-family: Helvetica;
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    padding-top: 74px;
+    padding-bottom: 5px;
+    border: solid 1px azure;
+    flex: 4;
+  }
+    .portrait12{
+    font-size: 14px;
+    color: azure;
+    margin-bottom: 5px;
+    font-family: Helvetica;
+    font-size: 15px;
+    border-radius: 3px;
+    background-color: black;
+    margin-top: 10px;
+    padding-left: 5px;
+    margin-bottom: 2px;
+    padding-bottom: 19px;
+    padding-top: 5px;
+    flex: 4;
+  }
+  .portrait12 a {
+    font-family: Helvetica;
+  }
+  .portrait{
+    font-size: 14px;
+    color: azure;
+    margin-bottom: 5px;
+    font-family: Helvetica;
+    font-size: 15px;
+    background-color: black;
+    margin-bottom: 2px;
+    padding: 5px;
+    border: solid 1px azure;
+    flex: 4;
+    border-bottom-color: black;
+    border-radius: 3px;
+    border-left-color: azure;
+    border-right-color: azure;
+    border-top-color: azure;
+  }
+  .quote {
+    font-size: 14px;
+    color: azure;
+    margin-bottom: 5px;
+    font-family: Helvetica;
+    font-size: 15px;
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 5px;
+    border: solid 1px azure;
+    background-color: rgba(139, 0, 0, 0.361);
+    flex: 1;
+    border-top-color: azure;
+  }
+  a {
+    color: azure; /* Link color */
+    text-decoration: underline; /* Underline links */
+  }
+  .label {
+    display: inline-block;
+    background-color: black;
+    font-family: Helvetica;
+    border: 1px solid azure;
+    border-radius: 3px;
+    padding: 9px;
+    text-align: left;
+    color: azure;
+    cursor: pointer;
+    margin-top: 7px; /* Margin around buttons */
+    font-size: 18px; /* Increased font size for buttons */
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .label:hover {
+    background-color: azure;
+    color: black;
+  }
+  .return-botton-location {
+    text-align: right;
+    margin-top: 12px;
+  }
+  .café-button-div-ffs {
+    margin-top: 20px;
+  }
+  .café-button {
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0; /* Margin around buttons */
+    padding: 2px; /* Increased padding for larger buttons */
+    font-size: 9px; /* Increased font size for buttons */
+    transition: background-color 0.15s, color 0.15s;
+    margin-right: 12px;
+  }
+
+  .café-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid black;
+  }
+  .label:hover a,
+  .café-button:hover a {
+    color: black !important;
+  }
+  .café-button:active {
+    background-color: rgb(0, 0, 0);
+    color: azure;
+  }
+
+  /* Style for the return button */
+  .return-button a {
+    margin-top: 20px;
+    color: azure;
+  }
+  .listofpersons {
+    margin-top: 3px;
+  }
